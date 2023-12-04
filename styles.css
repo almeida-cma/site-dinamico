@@ -1,0 +1,128 @@
+/* Adicione estas regras ao seu arquivo styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #444;
+    padding: 0.5em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilo para o formulário de contato */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #4b584c;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #668567;
+}
+
+/* Estilo para mensagens de erro (opcional) */
+.error-message {
+    color: #ff0000;
+    margin-top: 5px;
+}
+
+/* Estilo para as seções lado a lado na página Home */
+.section-container {
+    text-align: center;
+}
+
+.section {
+    width: 48%;
+    display: inline-block;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Limpeza para garantir que não haja quebras de linha inesperadas */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Estilo para a tabela na página Sobre */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
